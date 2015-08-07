@@ -102,6 +102,11 @@
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.detidSelectBox3 = new System.Windows.Forms.ComboBox();
+            this.DetectorSelectBox3 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -630,7 +635,7 @@
             "WSD Bucky",
             "TBL Bucky",
             "None"});
-            this.DetectorSelectBox1.Location = new System.Drawing.Point(784, 163);
+            this.DetectorSelectBox1.Location = new System.Drawing.Point(784, 160);
             this.DetectorSelectBox1.Name = "DetectorSelectBox1";
             this.DetectorSelectBox1.Size = new System.Drawing.Size(99, 21);
             this.DetectorSelectBox1.TabIndex = 57;
@@ -724,7 +729,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(626, 203);
+            this.label15.Location = new System.Drawing.Point(626, 193);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(57, 13);
             this.label15.TabIndex = 65;
@@ -737,7 +742,7 @@
             "WSD Bucky",
             "TBL Bucky",
             "None"});
-            this.DetectorSelectBox2.Location = new System.Drawing.Point(783, 199);
+            this.DetectorSelectBox2.Location = new System.Drawing.Point(784, 187);
             this.DetectorSelectBox2.Name = "DetectorSelectBox2";
             this.DetectorSelectBox2.Size = new System.Drawing.Size(100, 21);
             this.DetectorSelectBox2.TabIndex = 66;
@@ -764,7 +769,7 @@
             "6",
             "7",
             "8"});
-            this.detidSelectBox1.Location = new System.Drawing.Point(713, 165);
+            this.detidSelectBox1.Location = new System.Drawing.Point(713, 160);
             this.detidSelectBox1.Name = "detidSelectBox1";
             this.detidSelectBox1.Size = new System.Drawing.Size(32, 21);
             this.detidSelectBox1.TabIndex = 68;
@@ -820,7 +825,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(689, 203);
+            this.label18.Location = new System.Drawing.Point(690, 193);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(18, 13);
             this.label18.TabIndex = 73;
@@ -838,7 +843,7 @@
             "6",
             "7",
             "8"});
-            this.detidSelectBox2.Location = new System.Drawing.Point(713, 199);
+            this.detidSelectBox2.Location = new System.Drawing.Point(713, 187);
             this.detidSelectBox2.Name = "detidSelectBox2";
             this.detidSelectBox2.Size = new System.Drawing.Size(32, 21);
             this.detidSelectBox2.TabIndex = 74;
@@ -847,7 +852,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(760, 203);
+            this.label19.Location = new System.Drawing.Point(760, 192);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(15, 13);
             this.label19.TabIndex = 75;
@@ -894,11 +899,74 @@
             this.checkBox12.UseVisualStyleBackColor = true;
             this.checkBox12.CheckedChanged += new System.EventHandler(this.checkBox12_CheckedChanged);
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(626, 218);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(57, 13);
+            this.label20.TabIndex = 80;
+            this.label20.Text = "Detector 3";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(690, 218);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(18, 13);
+            this.label21.TabIndex = 81;
+            this.label21.Text = "ID";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(760, 217);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(15, 13);
+            this.label22.TabIndex = 83;
+            this.label22.Text = "in";
+            // 
+            // detidSelectBox3
+            // 
+            this.detidSelectBox3.FormattingEnabled = true;
+            this.detidSelectBox3.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"});
+            this.detidSelectBox3.Location = new System.Drawing.Point(714, 215);
+            this.detidSelectBox3.Name = "detidSelectBox3";
+            this.detidSelectBox3.Size = new System.Drawing.Size(32, 21);
+            this.detidSelectBox3.TabIndex = 84;
+            this.detidSelectBox3.SelectedIndexChanged += new System.EventHandler(this.detidSelectBox3_SelectedIndexChanged);
+            // 
+            // DetectorSelectBox3
+            // 
+            this.DetectorSelectBox3.FormattingEnabled = true;
+            this.DetectorSelectBox3.Items.AddRange(new object[] {
+            "WSD Bucky",
+            "TBL Bucky",
+            "None"});
+            this.DetectorSelectBox3.Location = new System.Drawing.Point(784, 215);
+            this.DetectorSelectBox3.Name = "DetectorSelectBox3";
+            this.DetectorSelectBox3.Size = new System.Drawing.Size(100, 21);
+            this.DetectorSelectBox3.TabIndex = 85;
+            this.DetectorSelectBox3.SelectedIndexChanged += new System.EventHandler(this.DetectorSelectBox3_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(926, 390);
+            this.Controls.Add(this.DetectorSelectBox3);
+            this.Controls.Add(this.detidSelectBox3);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
             this.Controls.Add(this.checkBox12);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button22);
@@ -1052,6 +1120,11 @@
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ComboBox detidSelectBox3;
+        private System.Windows.Forms.ComboBox DetectorSelectBox3;
     }
 }
 

@@ -35,9 +35,11 @@ namespace CanBusTester
 
         private int detectorId1 = 1;
         private int detectorId2 = 2;
+        private int detectorId3 = 3;
 
         private BuckyType detectorBucky1 = BuckyType.WSD;
         private BuckyType detectorBucky2 = BuckyType.TBL;
+        private BuckyType detectorBucky3 = BuckyType.None;
 
         public delegate void RefreshDelegate();
         
@@ -572,6 +574,43 @@ namespace CanBusTester
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             UnregisterPCUService();
+        }
+
+       
+
+        private void detidSelectBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            detectorId3 = detidSelectBox3.SelectedIndex + 1;
+        }
+
+        private void DetectorSelectBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (detectorBucky3)
+            {
+                case BuckyType.WSD:
+                    wsd.EjectDetector();
+                    break;
+                case BuckyType.TBL:
+                    tbl.EjectDetector();
+                    break;
+                default:
+                    break;
+            }
+            if
+             (this.DetectorSelectBox3.SelectedIndex == 0)
+            {
+                wsd.InsertDetector((byte)detectorId3);
+                detectorBucky3 = BuckyType.WSD;
+            }
+            if (this.DetectorSelectBox3.SelectedIndex == 1)
+            {
+                tbl.InsertDetector((byte)detectorId3);
+                detectorBucky3 = BuckyType.TBL;
+            }
+            if (this.DetectorSelectBox3.SelectedIndex == 2)
+            {
+                detectorBucky3 = BuckyType.None;
+            }
         }
            
        

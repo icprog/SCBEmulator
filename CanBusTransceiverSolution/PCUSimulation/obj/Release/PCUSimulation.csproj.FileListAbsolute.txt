@@ -34,4 +34,13 @@ H:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\bin\Release\
 H:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\bin\Release\PCUSimulation.pdb
 H:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\obj\Release\PCUSimulation.dll
 H:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\obj\Release\PCUSimulation.pdb
+G:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\bin\Release\PCUSimulation.dll
+G:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\bin\Release\PCUSimulation.pdb
+G:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\obj\Release\PCUSimulation.dll
+G:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\obj\Release\PCUSimulation.pdb
+I:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\bin\Release\PCUSimulation.dll
+I:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\bin\Release\PCUSimulation.pdb
+I:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\obj\Release\PCUSimulation.csprojResolveAssemblyReference.cache
+I:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\obj\Release\PCUSimulation.dll
+I:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\obj\Release\PCUSimulation.pdb
 H:\SCB Solution\SCBEmulator\CanBusTransceiverSolution\PCUSimulation\obj\Release\PCUSimulation.csprojResolveAssemblyReference.cache
